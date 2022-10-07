@@ -13,6 +13,8 @@
 		FFD43AE128EF18FE0034064A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FFD43ADF28EF18FE0034064A /* Main.storyboard */; };
 		FFD43AE328EF18FF0034064A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FFD43AE228EF18FF0034064A /* Assets.xcassets */; };
 		FFD43AE628EF18FF0034064A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FFD43AE428EF18FF0034064A /* LaunchScreen.storyboard */; };
+		FFD43AEE28EF1F6E0034064A /* LastViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFD43AED28EF1F6E0034064A /* LastViewController.swift */; };
+		FFD43AF028EF20C30034064A /* MiddleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFD43AEF28EF20C30034064A /* MiddleViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		FFD43AE228EF18FF0034064A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FFD43AE528EF18FF0034064A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FFD43AE728EF18FF0034064A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FFD43AED28EF1F6E0034064A /* LastViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LastViewController.swift; sourceTree = "<group>"; };
+		FFD43AEF28EF20C30034064A /* MiddleViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MiddleViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +64,8 @@
 				FFD43ADB28EF18FE0034064A /* SceneDelegate.swift */,
 				FFD43ADD28EF18FE0034064A /* ViewController.swift */,
 				FFD43ADF28EF18FE0034064A /* Main.storyboard */,
+				FFD43AEF28EF20C30034064A /* MiddleViewController.swift */,
+				FFD43AED28EF1F6E0034064A /* LastViewController.swift */,
 				FFD43AE228EF18FF0034064A /* Assets.xcassets */,
 				FFD43AE428EF18FF0034064A /* LaunchScreen.storyboard */,
 				FFD43AE728EF18FF0034064A /* Info.plist */,
@@ -138,8 +144,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FFD43AF028EF20C30034064A /* MiddleViewController.swift in Sources */,
 				FFD43ADE28EF18FE0034064A /* ViewController.swift in Sources */,
 				FFD43ADA28EF18FE0034064A /* AppDelegate.swift in Sources */,
+				FFD43AEE28EF1F6E0034064A /* LastViewController.swift in Sources */,
 				FFD43ADC28EF18FE0034064A /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -287,6 +295,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = LH9X4AL22K;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "Order Of Event/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -314,6 +323,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = LH9X4AL22K;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "Order Of Event/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
